@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/rritam_mitra_react/static/css/main.ffa7714d.css",
+    "main.js": "/rritam_mitra_react/static/js/main.9660bef0.js",
+    "static/media/logo.svg": "/rritam_mitra_react/static/media/logo.58da04b0783e68fedd56a01b0798bb38.svg",
+    "index.html": "/rritam_mitra_react/index.html",
+    "main.ffa7714d.css.map": "/rritam_mitra_react/static/css/main.ffa7714d.css.map",
+    "main.9660bef0.js.map": "/rritam_mitra_react/static/js/main.9660bef0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffa7714d.css",
+    "static/js/main.9660bef0.js"
+  ]
+}
