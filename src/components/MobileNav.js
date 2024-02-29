@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 
 import { IoMdClose } from 'react-icons/io';
 import { CgMenuRight } from 'react-icons/cg';
+import { BsInstagram } from "react-icons/bs";
+import { FiFacebook } from "react-icons/fi";
+import { FaXTwitter } from "react-icons/fa6";
 
 import { Link } from 'react-router-dom';
 
