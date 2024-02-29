@@ -1,7 +1,5 @@
 import React from 'react';
 
-import ContactBg from '../img/contact/woman.png'
-
 import { motion } from 'framer-motion';
 
 import { transition1 } from '../transitions';
@@ -44,15 +42,6 @@ const Contact = () => {
             </form>
 
           </div>
-
-          <motion.div
-          initial={{ opacity: 0, y: '100%' }}
-          animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: '100%' }}
-          transition={{transition: transition1, duration: 1.3 }}
-           className='lg:flex-1 '>
-            <img src={ContactBg} alt='' />
-          </motion.div>
 
         </div>
       </div>
