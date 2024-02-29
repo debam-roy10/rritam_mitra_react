@@ -43,10 +43,24 @@ const MobileNav = () => {
         </div>
         {/* menu list */}
         <ul className='h-full flex flex-col justify-center items-center gap-y-8 text-primary font-primary font-bold text-3xl'>
+
           <li onClick={() => setOpenMenu(false)} ><Link to={'/'}>Home</Link></li>
           <li onClick={() => setOpenMenu(false)}><Link to={'/portfolio'}>Portfolio</Link></li>
           <li onClick={() => setOpenMenu(false)}><Link to={'/about'}>About</Link></li>
           <li onClick={() => setOpenMenu(false)}><Link to={'/contact'}>Contact</Link></li>
+
+          <ul className='pt-10 text-2xl flex gap-x-6'>
+            <li>
+              <a href="https://www.facebook.com/rritam.mitra?mibextid=ZbWKwL" target='_blank' rel="noreferrer"><FiFacebook /></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/?lang=en" target='_blank' rel="noreferrer"><FaXTwitter /></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/rritamsphotographyofficial?igsh=OW94bmJmdGZzZWN0" target='_blank' rel="noreferrer"><BsInstagram /></a>
+            </li>
+          </ul>
+
         </ul>
       </motion.div>
     </nav>
