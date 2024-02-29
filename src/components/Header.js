@@ -22,12 +22,12 @@ const Header = () => {
           Home
         </Link>
         <Link
-          to={'/about'} className="text-[#696c6d] hover:text-primary transition">
-          About
+          to={'/portfolio'} className="text-[#696c6d] hover:text-primary transition">
+            Portfolio
         </Link>
         <Link
-          to={'/portfolio'} className="text-[#696c6d] hover:text-primary transition">
-          Portfolio
+          to={'/about'} className="text-[#696c6d] hover:text-primary transition">
+            About
         </Link>
         <Link
           to={'/contact'} className="text-[#696c6d] hover:text-primary transition">
